@@ -2,7 +2,7 @@ import { Controller, Get } from '@nestjs/common';
 
 @Controller('')
 export class AppController {
-  //test
+  //tests
   @Get()
   home() {
     return 'Welcome to my Movie API';
